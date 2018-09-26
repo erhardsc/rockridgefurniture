@@ -1,0 +1,11 @@
+.button {
+  &.variation-selection-needed {
+    @include rounded-button(lighten($black, 30%), $white, $hover-effect: false);
+  }
+
+  #shopdock &.checkout {
+    padding: .8em 1em .8em 1.25em;
+    @include rounded-button($black, $white, $hover-effect: true);
+  }
+
+}

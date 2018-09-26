@@ -15,8 +15,6 @@ function themify_custom_enqueue_child_theme_styles() {
  */
 add_filter( 'stylesheet_uri', 'replace_default_style_sheet', 10, 2 );
 function replace_default_style_sheet() {
-
 	return get_stylesheet_directory_uri() . '/dist/styles/style.css';
-
 }
 

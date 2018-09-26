@@ -1,9 +1,3 @@
-/*
-Theme Name: Themify Shoppe Child
-Description: Child theme for Shoppe theme
-Author: Sumner Erhard
-Template: themify-shoppe
-*/
 .home h2 {
 	text-align: center;
 	font-size: 2em;
@@ -14,4 +8,35 @@ Template: themify-shoppe
 	.home h2 {
 		font-size: 2.5em;
 	}
+}
+
+.button {
+	text-align: center !important;
+	color: #3d3d3d !important;
+	background: #fff !important;
+	border: none !important;
+	border-radius: 50px !important;
+	-webkit-box-shadow: 0 10px 48px -8px #ababab !important;
+	        box-shadow: 0 10px 48px -8px #ababab !important;
+}
+
+.button.variation-selection-needed {
+	text-align: center !important;
+	color: #8a8989 !important;
+	background: #fff !important;
+	border: none !important;
+	border-radius: 50px !important;
+	-webkit-box-shadow: 0 10px 48px -8px #ababab !important;
+	        box-shadow: 0 10px 48px -8px #ababab !important;
+}
+
+#shopdock .button.checkout {
+	padding: .8em 1em .8em 1.25em;
+	text-align: center !important;
+	color: #3d3d3d !important;
+	background: #fff !important;
+	border: none !important;
+	border-radius: 50px !important;
+	-webkit-box-shadow: 0 10px 48px -8px #ababab !important;
+	        box-shadow: 0 10px 48px -8px #ababab !important;
 }

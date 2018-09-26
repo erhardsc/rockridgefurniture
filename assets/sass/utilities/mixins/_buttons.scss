@@ -1,0 +1,16 @@
+@mixin rounded-button($text-color, $background-color, $hover-effect: true) {
+  text-align: center !important;
+  color: $text-color !important;
+  background: $background-color !important;
+  border: none !important;
+  border-radius: 50px !important;
+  box-shadow: 0 10px 48px -8px rgba(171,171,171,1) !important;
+
+  @if $hover-effect == 'true' {
+    &:hover {
+      box-shadow: 0 10px 48px -13px rgba(171, 171, 171, 1) !important;
+      color: lighten($text-color, 20%) !important;
+    }
+  }
+
+}
