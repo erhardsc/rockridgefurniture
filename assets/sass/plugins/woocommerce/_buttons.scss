@@ -1,12 +1,15 @@
-.button {
-  &.disabled {
-    cursor: not-allowed !important;
-    @include rounded-button(lighten($black, 30%), $white, $hover-effect: false);
-  }
+.woocommerce {
+  .button {
 
-  #shopdock &.checkout {
-    padding: .8em 1em .8em 1.25em;
-    @include rounded-button($black, $white, $hover-effect: true);
-  }
+    &.disabled {
+      cursor: not-allowed !important;
+      @include rounded-button(lighten($black, 30%), $white, $hover-effect: false);
+    }
 
+    #shopdock &.checkout {
+      padding: .8em 1em .8em 1.25em;
+      @include rounded-button($black, $white, $hover-effect: true);
+    }
+
+  }
 }
