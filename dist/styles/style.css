@@ -59,3 +59,13 @@
 	        box-shadow: 0 10px 48px -13px #ababab !important;
 	color: #707070 !important;
 }
+
+.fancy-heading {
+	font-family: Oxygen;
+	font-weight: bold;
+	color: #3d3d3d;
+}
+
+.fancy-heading strong {
+	font-family: Oxygen;
+}
