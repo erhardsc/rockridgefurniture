@@ -1,0 +1,12 @@
+.woocommerce {
+
+  form.cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  form.variations_form.cart {
+    flex-direction: column;
+  }
+
+}

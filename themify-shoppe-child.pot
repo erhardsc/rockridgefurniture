@@ -1,0 +1,27 @@
+# <!=Copyright (C) 2018 Sumner Erhard
+# This file is distributed under the same license as the Themify Shoppe Child package.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Themify Shoppe Child\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/theme/themify-shoppe-child\n"
+"POT-Creation-Date: 2018-09-27 03:31:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.1\n"
+
+#. Theme Name of the plugin/theme
+msgid "Themify Shoppe Child"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Child theme for Shoppe theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sumner Erhard"
+msgstr ""
