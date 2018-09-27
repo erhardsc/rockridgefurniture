@@ -1,5 +1,6 @@
 .button {
-  &.variation-selection-needed {
+  &.disabled {
+    cursor: not-allowed !important;
     @include rounded-button(lighten($black, 30%), $white, $hover-effect: false);
   }
 
