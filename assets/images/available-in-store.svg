@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="35px" viewBox="0 0 147 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Available in store</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Single-Product" transform="translate(-822.000000, -264.000000)">
+            <g id="Ecommerce-#5" transform="translate(0.000000, 133.000000)">
+                <g id="Available-in-store" transform="translate(822.000000, 131.000000)">
+                    <path d="M147,34.8999819 L147,35 L146.906353,34.9180585 C146.612413,34.971881 146.30949,35 146,35 L5,35 C2.23857625,35 3.38176876e-16,32.7614237 0,30 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 L146,0 C146.30949,-5.6852425e-17 146.612413,0.028118979 146.906353,0.081941531 L147,0 L147,0.100018116 L147,34.8999819 Z M151,30 L151,5 L151,30 Z M146.906353,0.081941531 L127,17.5 L146.906353,34.9180585 C146.937671,34.9123238 146.968888,34.9062973 147,34.8999819 L147,0.100018116 C146.968888,0.0937027343 146.937671,0.0876762323 146.906353,0.081941531 Z" id="Combined-Shape" fill="#1976D2" fill-rule="evenodd"></path>
+                    <text id="See-in-Store" font-family="Oxygen-Bold, Oxygen" font-size="14" font-weight="bold" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="19" y="22">See in Store</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
