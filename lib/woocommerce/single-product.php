@@ -2,6 +2,23 @@
 
 //SINGLE PRODUCT PAGE
 
+add_action( 'woocommerce_single_product_summary', 'woocommerce_show_product_available_in_store', 2 );
+function woocommerce_show_product_available_in_store() {
+	global $product;
+	$isAvailable = has_term('see-it-in-store', 'product_tag');
+
+	if ($isAvailable) {
+		echo '<div  class="badge_see-in-store">';
+		echo '<div class="badge_see-in-store-wrap">';
+		echo '<img src="/wp-content/themes/themify-shoppe-child/assets/images/available-in-store.svg">';
+		echo '<p>Available for viewing in our showroom</p>';
+		echo '</div>';
+		echo '</div>';
+	}
+
+}
+
+
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 function woo_remove_product_tabs( $tabs ) {
 	unset( $tabs['additional_information'] ); // Remove the additional information tab
