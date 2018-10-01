@@ -38,6 +38,16 @@
 	color: #707070 !important;
 }
 
+.fancy-heading {
+	font-family: Oxygen;
+	font-weight: bold;
+	color: #3d3d3d;
+}
+
+.fancy-heading strong {
+	font-family: Oxygen;
+}
+
 .woocommerce .button.disabled {
 	cursor: not-allowed !important;
 	text-align: center !important;
@@ -72,21 +82,59 @@
 	color: #707070 !important;
 }
 
+.woocommerce.single-product .woocommerce-tabs .tabs {
+	text-align: left !important;
+}
+
+.woocommerce.single-product .woocommerce-tabs .panel {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.woocommerce.single-product .woocommerce-Tabs-panel--description {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+
+@media (min-width: 769px) {
+	.woocommerce.single-product .woocommerce-Tabs-panel--description {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+}
+
+.woocommerce.single-product .woocommerce-Tabs-panel--description .description em, .woocommerce.single-product .woocommerce-Tabs-panel--description .description strong {
+	display: block;
+}
+
 .woocommerce .dimensions {
+	clear: both;
 	-webkit-box-shadow: 0 10px 48px -13px #ababab !important;
 	        box-shadow: 0 10px 48px -13px #ababab !important;
-	clear: both;
-	position: fixed;
-	right: 0;
-	width: 18%;
 	background: #FAFAFA;
 	border-radius: 10px 0 0 10px;
-	z-index: 10;
+	width: 250px;
+	margin: 20px auto;
 }
 
 .woocommerce .dimensions .dimensions-wrap {
-	text-align: center;
-	margin: 10px;
+	margin: 1em;
+}
+
+@media (min-width: 769px) {
+	.woocommerce .dimensions {
+		margin: 0;
+	}
 }
 
 .woocommerce form.cart {
@@ -106,14 +154,4 @@
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-}
-
-.fancy-heading {
-	font-family: Oxygen;
-	font-weight: bold;
-	color: #3d3d3d;
-}
-
-.fancy-heading strong {
-	font-family: Oxygen;
 }

@@ -1,0 +1,27 @@
+.woocommerce.single-product {
+
+  .woocommerce-tabs {
+    .tabs {
+      text-align: left !important;
+    }
+    .panel {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  .woocommerce-Tabs-panel--description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+    @include media-query('med') {
+      flex-direction: row;
+    }
+    .description {
+      em,strong {
+        display: block;
+      }
+    }
+  }
+
+}
