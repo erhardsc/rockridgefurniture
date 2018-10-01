@@ -1,0 +1,19 @@
+.woocommerce {
+  .dimensions {
+    clear: both;
+    box-shadow: 0 10px 48px -13px #ababab !important;
+    background: #FAFAFA;
+    border-radius: 10px 0 0 10px;
+    width: 250px;
+    margin: 20px auto;
+
+    .dimensions-wrap {
+      margin: 1em;
+    }
+
+    @include media-query('med'){
+      margin: 0;
+    }
+
+  }
+}
