@@ -1,0 +1,29 @@
+.sale-slider {
+
+  h3 {
+    color: $white;
+    font-size: 2em;
+  }
+
+  .bsp-slide-excerpt {
+
+    @include media-query('med') {
+      padding: 30px 37px 0 0;
+    }
+
+  }
+
+  .sp-slide-text {
+
+    @include media-query('med') {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .bsp-slide-button {
+    @include rounded-button($black, $white, $hover-effect: true);
+  }
+
+}

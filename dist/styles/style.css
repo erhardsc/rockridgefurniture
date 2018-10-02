@@ -101,6 +101,47 @@ input[type=file] {
 	bottom: 5px;
 }
 
+.sale-slider h3 {
+	color: #fff;
+	font-size: 2em;
+}
+
+@media (min-width: 769px) {
+	.sale-slider .bsp-slide-excerpt {
+		padding: 30px 37px 0 0;
+	}
+}
+
+@media (min-width: 769px) {
+	.sale-slider .sp-slide-text {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+}
+
+.sale-slider .bsp-slide-button {
+	text-align: center !important;
+	color: #3d3d3d !important;
+	background: #fff !important;
+	border: none !important;
+	border-radius: 50px !important;
+	-webkit-box-shadow: 0 10px 48px -8px #ababab !important;
+	        box-shadow: 0 10px 48px -8px #ababab !important;
+}
+
+.sale-slider .bsp-slide-button:hover {
+	-webkit-box-shadow: 0 10px 48px -13px #ababab !important;
+	        box-shadow: 0 10px 48px -13px #ababab !important;
+	color: #707070 !important;
+}
+
 #main-nav .sub-menu .menu-item.has-sub-menu > a {
 	font-weight: 600;
 }
