@@ -1,0 +1,11 @@
+.woocommerce.archive {
+  #body #layout {
+    display: flex;
+    flex-direction: column-reverse;
+    float: none;
+
+    @include media-query('med'){
+      display: block;
+    }
+  }
+}

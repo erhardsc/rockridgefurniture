@@ -1,0 +1,7 @@
+.woocommerce.archive {
+
+  // Hide the product archive breadcrumb because it is being displayed in the sidebar
+  #content .woocommerce-breadcrumb {
+    visibility: hidden;
+  }
+}
