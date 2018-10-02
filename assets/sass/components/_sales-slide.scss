@@ -3,10 +3,11 @@
   h3 {
     color: $white;
     font-size: 2em;
+    font-weight: bold;
+
   }
 
   .bsp-slide-excerpt {
-
     @include media-query('med') {
       padding: 30px 37px 0 0;
     }
@@ -23,6 +24,7 @@
   }
 
   .bsp-slide-button {
+    border-radius: 50px !important;
     @include rounded-button($black, $white, $hover-effect: true);
   }
 

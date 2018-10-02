@@ -1,5 +1,8 @@
 <?php
 
+// Remove the result count from WooCommerce
+//remove_action( 'woocommerce_before_shop_loop' , 'themify_hide_shop_features', 1 );
+
 add_action( 'themify_sidebar_start', 'woocommerce_insert_desktop_shop_page_title', 1 );
 function woocommerce_insert_desktop_shop_page_title() {
 	include CHILD_THEME_DIR . '/lib/views/archive-top.php';
