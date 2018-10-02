@@ -1,7 +1,20 @@
 .woocommerce {
   aside#sidebar {
+    @include media-query('med'){
+      position: sticky;
+      top: 40px;
+      overflow: hidden;
+      .woocommerce-archive-top {
+        overflow-y: scroll;
+        box-sizing: content-box;
+        padding-right: 17px;
+        width: 100%;
+      }
+
+    }
       h1 {
         margin: 0 0 1em 0;
+        line-height: 1.2;
       }
   }
 }

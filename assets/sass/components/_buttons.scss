@@ -1,3 +1,15 @@
 .button {
   @include rounded-button($black, $white, $hover-effect: true);
 }
+
+.btn {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em 3em;
+  @include rounded-button($black, $white, $hover-effect: true);
+}
+
+
+.module-contact .builder-contact-field-send {
+  margin: 3em 0 !important;
+}
