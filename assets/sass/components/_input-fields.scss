@@ -30,24 +30,34 @@ input[type=week] {
   }
 }
 
-
-
 input[type=file] {
   display: none;
 }
 
-.module-contact .required {
-  position: relative;
-  top: 44px;
-  left: -4px;
+.module-contact {
 
-  &::after {
-    content: '00';
-    font-size: 10px;
-    border-radius: 50%;
-    background: red;
+
+  .required {
     position: relative;
-    right: 10px;
-    bottom: 5px;
+    top: 44px;
+    left: -4px;
+
+    &::after {
+      content: '00';
+      font-size: 10px;
+      border-radius: 50%;
+      background: red;
+      position: relative;
+      right: 10px;
+      bottom: 5px;
+    }
   }
+
+  .builder-contact-checkbox-field .required {
+    top: 35px;
+    left: -11px;
+  }
+
 }
+
+

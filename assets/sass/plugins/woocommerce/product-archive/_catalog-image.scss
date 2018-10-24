@@ -1,13 +1,15 @@
-.woocommerce.archive {
+.woocommerce {
 
   .product {
     position: relative;
-  }
-  .see-in-store {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    z-index: 2;
+
+    .see-in-store {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      z-index: 2;
+    }
+
   }
 }

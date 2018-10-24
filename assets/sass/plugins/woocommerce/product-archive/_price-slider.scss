@@ -1,0 +1,23 @@
+.woocommerce {
+
+  .widget_price_filter {
+
+    .ui-slider {
+
+      .ui-slider-range {
+        background-color: $black;
+      }
+
+      .ui-slider-handle {
+        background: $black;
+      }
+
+    }
+
+    .price_label {
+      text-align: center;
+    }
+
+  }
+
+}

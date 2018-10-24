@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Themify Shoppe Child\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/theme/themify-shoppe-child\n"
-"POT-Creation-Date: 2018-09-27 03:31:12+00:00\n"
+"POT-Creation-Date: 2018-10-02 07:21:42+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: node-wp-i18n 1.2.1\n"
+
+#: lib/woocommerce/single-product.php:25
+msgid "Product Information"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Themify Shoppe Child"

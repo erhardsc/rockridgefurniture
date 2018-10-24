@@ -8,4 +8,12 @@
       display: block;
     }
   }
+
+  .page-title {
+    text-align: center;
+
+    @include media-query('med'){
+      text-align: left;
+    }
+  }
 }
