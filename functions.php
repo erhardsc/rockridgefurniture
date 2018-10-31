@@ -7,4 +7,3 @@ include 'lib/enqueue-assets.php';
 //include 'lib/woocommerce/base.php';
 include 'lib/woocommerce/single-product.php';
 include 'lib/woocommerce/product-archive.php';
-

@@ -1,0 +1,76 @@
+.woocommerce-ajax-filter {
+
+  .widget.widget_berocket_aapf_single {
+    margin: 0 0;
+  }
+
+  #berocket_aapf_group-4-1 {
+    .berocket_aapf_widget-title_div {
+      display: none;
+    }
+  }
+
+  .filter_see-in-store {
+
+    display: flex !important;
+    align-items: center;
+
+    label {
+      color: $white;
+      background-color: #1976d2;
+      padding: 2px 10px;
+      display: none;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    &::after {
+      content: url("/wp-content/themes/themify-shoppe-child/assets/images/see-it-in-store.png");
+    }
+
+  }
+
+  .filter_color {
+
+    .berocket_checkbox_color {
+      .berocket_color_text {
+        display: none !important;
+        top: -19px;
+        left: -24px;
+        color: $white;
+        border-radius: 3px;
+        background: #3d3d3d;
+        padding: 2px 5px;
+        position: absolute;
+      }
+
+      .berocket_label_widgets {
+        position: relative;
+      }
+
+      & .berocket_label_widgets:hover > .berocket_color_text {
+        display: block !important;
+      }
+
+
+      span.berocket_color_span_block {
+        border: none !important;
+        border-radius: 3px;
+
+      }
+    }
+  }
+
+}
+
+.berocket_aapf_widget_show.show_button,
+.berocket_aapf_widget_show.hide_button {
+  display: block !important;
+}
+
+.berocket_single_filter_visible .filter_color {
+  display: flex !important;
+  flex-wrap: wrap;
+}

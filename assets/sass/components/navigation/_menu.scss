@@ -5,3 +5,11 @@
     }
   }
 }
+
+.icon-menu {
+  .menu-call .tooltip {
+    @include media-query('med') {
+      width: 100px;
+    }
+  }
+}
